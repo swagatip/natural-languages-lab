@@ -1,0 +1,13 @@
+python-dotenv
+pymilvus==2.3.5
+openai==1.6.1
+langchain==0.0.354
+tiktoken==0.5.2
+transformers==4.36.2
+pandas==2.1.4
+pdfminer.six==20221105
+pyarrow
+langchain-openai
+langchain-core
+langchain-community
+langchain-text-splitters

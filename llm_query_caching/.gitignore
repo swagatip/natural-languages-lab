@@ -1,0 +1,15 @@
+.env# Python
+src/__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# Jupyter
+src/.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Docker / Milvus volumes
+volumes/
