@@ -27,14 +27,14 @@ If you want to install a dependency, add it in `requirements.txt`.
 
 #### Complete setup steps
 
-Step1: Install Docker Desktop if not already
-Step2: Run the Docker containers: `docker compose -f milvus-standalone-docker-compose.yml up -d`
-Step3: See the status of Docker containers: `docker ps`
-Step4: Connect to the attu website by opening local host in browser: http://localhost:8000
-Step5: Click Connect button.
-Step6: Get API Key from OpenAI https://platform.openai.com/api-keys
-Step7: Add Credits to the OpenAI account to run this code. A small amount will suffice. https://platform.openai.com/settings/organization/billing/overview
-Step8: Paste API Key In the code in `.env` file.
+1. Install Docker Desktop if not already
+2. Run the Docker containers: `docker compose -f milvus-standalone-docker-compose.yml up -d`
+3. See the status of Docker containers: `docker ps`
+4. Connect to the attu website by opening local host in browser: http://localhost:8000
+5. Click Connect button.
+6. Get API Key from OpenAI https://platform.openai.com/api-keys
+7. Add Credits to the OpenAI account to run this code. A small amount will suffice. https://platform.openai.com/settings/organization/billing/overview
+8. Paste API Key In the code in `.env` file.
 
 #### How to delete the docker containers
 Run this command on Terminal: `docker compose -f milvus-standalone-docker-compose.yml down`
