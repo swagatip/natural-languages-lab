@@ -1,3 +1,5 @@
+regex
+numpy
 transformers
 torch
 ipywidgets
@@ -5,3 +7,8 @@ multiprocess
 datasets
 pandas
 pyarrow
+torchinfo
+huggingface_hub
+tqdm
+accelerate>=1.1.0
+rouge-score
